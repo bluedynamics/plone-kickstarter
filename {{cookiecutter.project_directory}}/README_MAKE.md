@@ -21,7 +21,7 @@ Here some of the important ones:
 
 ```text
 run         run Plone
-{%- if cookiecutter.mode == "adon" %}
+{%- if cookiecutter.mode == "addon" %}
 test        run tests
 lint        lint all: check if complies with code-styles black, isort and zpretty
 style       format code (black, isort, zpretty)
