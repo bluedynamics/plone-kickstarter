@@ -17,7 +17,7 @@ This cookiecutter templates result helps in
   pip install git+https://github.com/cookiecutter/cookiecutter.git#egg=cookiecutter
   ```
 
-- (optional, for mode *add-on*) `plonecli` (and `bobtemplates.plone` (>= 6.0b10) if you want to crate a plone customization or add-on.
+- (optional, for mode *add-on*) `plonecli` (and `bobtemplates.plone` (>= 6.0b10) if you want to create a plone customization or add-on.
 
   Best is to install the two tools into your standard Python 3 (not the venv inside the project).
 
