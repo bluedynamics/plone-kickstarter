@@ -1,6 +1,6 @@
 # Kickstarting Plone 6 (backend)
 
-Bakes a configuration to start Plone 6 using *make*, *mxdev*, *pip*, *cookiecutter* and *WSGI*.
+Bakes a configuration to start Plone 6 Backend using *make*, *mxdev*, *pip*, *cookiecutter* and *WSGI*.
 
 This cookiecutter templates result helps in
 
@@ -11,13 +11,17 @@ This cookiecutter templates result helps in
 
 ## Prerequisites
 
-- `cookiecutter` (temporary the current unreleased version from GitHub, due to unreleased bug-fixes we depend on).
+- `cookiecutter`
 
   ```bash
-  pip install git+https://github.com/cookiecutter/cookiecutter.git#egg=cookiecutter
+  pip install "cookiecutter==2.1.1"
   ```
 
 - (optional, for mode *add-on*) `plonecli` (and `bobtemplates.plone` (>= 6.0b10) if you want to crate a plone customization or add-on.
+
+  ```bash
+  pip install plonecli "bobtemplates.plone>=6.0b10"
+  ```
 
   Best is to install the two tools into your standard Python 3 (not the venv inside the project).
 
